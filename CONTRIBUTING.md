@@ -39,7 +39,7 @@ We love contributions from the community! Here are some ways you can help:
 
 ## How to report a bug
 
-If you find a security vulnerability, do NOT open an issue. Email [your-email@domain.com] instead.
+If you find a security vulnerability, do NOT open an issue. Email [ethendixon@outlook.com] instead.
 
 If you find a bug in the source code, a mistake in the documentation, or a flaw in the interface, you can help us by submitting an issue to our [GitHub Repository](https://github.com/yourusername/em2-tui). Even better you can submit a Pull Request with a fix.
 
