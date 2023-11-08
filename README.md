@@ -1,5 +1,7 @@
 # EM2 TUI
 
+![EM2 TUI Screenshot](tui.png)
+
 EM2 TUI is a Terminal User Interface (TUI) for easily selecting and running emulators and ROMs from a simple curses-based interface. It's designed to work on Unix-like systems with Python and curses support, providing a quick and straightforward way to launch your favorite games using the associated emulators.
 
 ## Features
