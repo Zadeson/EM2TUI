@@ -6,7 +6,7 @@ import subprocess
 # Configurable constants
 EMULATOR_DIR = 'emulators'
 EMULATOR_EXTENSIONS = ['.exe', '.bat', '.sh']  # Add more if needed
-ROM_EXTENSIONS = ['.iso','.nes','.nez','.unf','.unif','.smc','.sfc','.md','.smd','.gen','.gg','.z64','.n64','.gb','.gbc','.gba','.srl','.gcm','.gcz','.nds','.srl','.dsi','.nds','.app','.srl','.ids','.wbfs','.wad','.cia','.3ds','.nsp','.xci','.ngp','.ngc','.pce','.vpk','.vb','.ws','.wsc','.ipa','.apk','.obb','.ef','.pbp','.dol','.xbe','.xex','.cfg','.ini','.dll','.so','.xml','.hsi','.lay','.nv','.m3u']  # Add more if needed
+ROM_EXTENSIONS = ['.iso','.nes','.nez','.unf','.unif','.smc','.sfc','.md','.smd','.gen','.gg','.z64','.n64','.gb','.gbc','.gba','.srl','.gcm','.gcz','.nds','.srl','.dsi','.nds','.app','.srl','.ids','.wbfs','.wad','.cia','.3ds','.nsp','.xci','.ngp','.ngc','.pce','.vpk','.vb','.ws','.wsc','.ipa','.apk','.obb','.ef','.pbp','.dol','.xbe','.xex','.cfg','.so','.xml','.hsi','.lay','.nv','.m3u']  # Add more if needed
 non_emulators = ['7za.exe'] # Add more if needed
 
 #EM2TUI
@@ -36,7 +36,7 @@ def scan_for_emulators_and_roms(directory):
             if ext in ROM_EXTENSIONS:
                 for emulator in emulators:
                     roms.setdefault(emulator, []).append(os.path.join(root, file))
-
+    print(roms)
     return roms
 
 # Function to run the selected emulator with the selected ROM
